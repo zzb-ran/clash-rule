@@ -15,4 +15,5 @@ cf login -a ADDRESS
 2. cf set-env APP_NAME APP_UUID YOUR_UUID
 3. cf set-env APP_NAME VMESS_HOST TUNNEL_ADDRESS
 4. cf set-env APP_NAME TUNNEL_TOKEN TUNNEL_TOKEN
-5. cf logs APP_NAME --recent
+5. cf start APP_NAME
+6. cf logs APP_NAME --recent
