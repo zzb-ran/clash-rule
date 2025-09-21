@@ -6,7 +6,7 @@ cf login -a ADDRESS
 2.pull
 无CF TUNNEL
 1. cf push APP_NAME --docker-image uncleluo/mous:latest -m 512M --health-check-type port
-2. cf set-env APP_NAME APP_UUID YOUR_UUID
+2. cf set-env APP_NAME UUID YOUR_UUID
 3. cf restage APP_NAME
 4. cf logs APP_NAME --recent
 
