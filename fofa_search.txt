@@ -6,3 +6,5 @@ server=="cloudflare" && header="Forbidden" && region=="TW"
 
 
 TW_ISP_ASN: AS3462
+
+JP_FAST_ASN: AS4785, AS401615
